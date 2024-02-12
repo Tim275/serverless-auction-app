@@ -1,0 +1,22 @@
+{
+  "name": "authproject",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.511.0",
+    "@aws-sdk/util-dynamodb": "^3.511.0",
+    "@middy/core": "^5.2.4",
+    "@middy/http-event-normalizer": "^5.2.4",
+    "@middy/http-json-body-parser": "^5.2.4",
+    "express": "^4.18.2",
+    "serverless-http": "^3.1.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "serverless-bundle": "^6.1.0",
+    "serverless-offline": "^13.3.3"
+  }
+}
